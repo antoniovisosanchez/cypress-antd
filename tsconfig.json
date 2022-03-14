@@ -1,13 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "es5",
-      "es6",
-      "es7",
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
     "outDir": "lib",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -24,17 +18,8 @@
     "declaration": true,
     "sourceMap": true,
     "experimentalDecorators": true,
-    "types": [
-      "cypress"
-    ]
+    "types": ["cypress"]
   },
-  "include": [
-    "./**/*.ts",
-    "./**/*.tsx"
-  ],
-  "exclude": [
-    "./lib/**/*",
-    "./es/**/*",
-    "node_modules"
-  ]
+  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.js"],
+  "exclude": ["./lib/**/*", "./es/**/*", "node_modules"]
 }
