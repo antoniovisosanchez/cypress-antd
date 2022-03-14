@@ -7,7 +7,7 @@ Helpers for interacting with Ant Design components in Cypress tests.
 Import the provided helpers directly:
 
 ```javascript
-import { getButton, shouldHaveTooltip } from '@hello_auto/cypress-antd'
+import { getButton, shouldHaveTooltip } from '@helloautosolutions/cypress-antd'
 
 // note that "child command" (Cypress terminology) helpers are curried to be used inside `then`
 getButton('Cool Button').then(shouldHaveTooltip('The coolness of this button knows no bounds.'))
@@ -16,7 +16,7 @@ getButton('Cool Button').then(shouldHaveTooltip('The coolness of this button kno
 or register them automatically with Cypress as custom commands:
 
 ```javascript
-import '@hello_auto/cypress-antd/lib/register'
+import '@helloautosolutions/cypress-antd/lib/register'
 
 // note that "child commands" are registered properly to automatically consume the yielded subject
 cy.getButton('Uncool Button').shouldHaveTooltip('This button is so very sad.')

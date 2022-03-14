@@ -19,7 +19,8 @@ jobs:
       - run: npm i --frozen-lockfile
         env:
           NODE_AUTH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-      - run: npm build
+      - run: npm install
+      - run: npm run build --if-present
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
