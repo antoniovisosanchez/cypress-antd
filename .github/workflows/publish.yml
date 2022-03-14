@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '14'
           registry-url: https://npm.pkg.github.com/
-          scope: '@hon2a'
+          scope: '@helloAutoSolutions'
       - uses: actions/checkout@master
       - run: npm i --frozen-lockfile
         env:
