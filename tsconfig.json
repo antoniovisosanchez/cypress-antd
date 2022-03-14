@@ -20,6 +20,6 @@
     "experimentalDecorators": true,
     "types": ["cypress"]
   },
-  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.js"],
+  "include": ["./**/*.ts", "./**/*.tsx", "./src/*.js"],
   "exclude": ["./lib/**/*", "./es/**/*", "node_modules"]
 }
