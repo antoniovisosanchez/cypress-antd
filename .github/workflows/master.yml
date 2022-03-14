@@ -1,0 +1,21 @@
+name: Main Workflow
+
+on:
+  push:
+  branches:
+    - master
+jobs:
+  tests:
+    name: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+          registry-url: https://npm.pkg.github.com/
+          scope: '@helloAutoSolutions'
+      - run: npm i
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      - run: npm run test
