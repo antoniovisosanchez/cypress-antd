@@ -4,7 +4,7 @@ import isNil from 'lodash/isNil'
 import get from 'lodash/get'
 
 import { logAndMute } from './utils'
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 import { CommonOptions, Label } from './types'
 
 const { $ } = Cypress

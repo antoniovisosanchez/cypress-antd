@@ -10,7 +10,7 @@ import isObject from 'lodash/isObject'
 import escapeRegExp from 'lodash/escapeRegExp'
 
 import { ifOnClock, logAndMute, MUTE, tickIfOnClock, TickOptions } from './utils'
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 import { CommonOptions, Label } from './types'
 
 type FieldType = 'input' | 'number' | 'select' | 'multiselect' | 'tags' | 'radio' | 'date'

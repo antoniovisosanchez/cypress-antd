@@ -1,6 +1,6 @@
 {
   "name": "@helloautosolutions/cypress-antd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helpers for interacting with Ant Design components in Cypress tests.",
   "repository": {
     "type": "git",
@@ -49,7 +49,6 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.3",
-    "@hon2a/cypress-without": "1.1.8",
     "lodash": "^4.17.21"
   },
   "bugs": {

@@ -1,4 +1,4 @@
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 
 import { logAndMute } from './utils'
 import { CommonOptions, Label } from './types'
