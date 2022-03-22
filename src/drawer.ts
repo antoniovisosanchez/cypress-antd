@@ -1,4 +1,4 @@
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 
 export const getDrawer = (options?: Partial<Cypress.Loggable & Cypress.Timeoutable>) =>
   absoluteRoot(options).find('.ant-drawer:visible', options)

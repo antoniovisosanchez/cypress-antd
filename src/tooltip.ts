@@ -1,4 +1,4 @@
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 
 export const getTooltip = (text: string, options?: Partial<Cypress.Loggable & Cypress.Timeoutable & Cypress.Shadow>) =>
   text

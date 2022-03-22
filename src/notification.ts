@@ -1,4 +1,4 @@
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 import pickBy from 'lodash/pickBy'
 
 import { logAndMute } from './utils'

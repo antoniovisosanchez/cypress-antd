@@ -1,5 +1,5 @@
 import { ifOnClock, logAndMute, MUTE, tickIfOnClock, TickOptions } from './utils'
-import { absoluteRoot } from '@hon2a/cypress-without'
+import { absoluteRoot } from './without'
 import { CommonOptions } from './types'
 
 export const getPopover = (options?: CommonOptions) => absoluteRoot(options).find('.ant-popover:visible', options)
