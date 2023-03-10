@@ -4,7 +4,7 @@
   "description": "Helpers for interacting with Ant Design components in Cypress tests.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antoniovisosanchez/cypress-antd.git"
+    "url": "git://github.com/antoniovisosanchez/cypress-antd.git"
   },
   "author": "Antonio Jesús Viso Sánchez",
   "license": "MIT",
